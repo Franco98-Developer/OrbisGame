@@ -1,0 +1,85 @@
+﻿/*--------------------------------------------CSS NUEVO, COPIADO TAL CUAL DEL VIDEO ---------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+    text-align:center;
+}
+
+body {
+    background: #f3f5f9;
+}
+
+.wrapper {
+    display: flex;
+    position: center;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    ;
+    padding: 30px 0;
+}
+
+.wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+}
+
+.wrapper .sidebar ul li a {
+    color: #bdb8d7;
+    display: block;
+}
+
+.wrapper .sidebar ul li a .fas {
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+    background: #594f8d;
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: #fff;
+}
+
+.wrapper .main_content { /*Aqui se relaciona con <div class="main_content"> y va el css para el texto de la linea 22 de Index.cshtml*/
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapper .main_content .header {
+    padding: 20px; /*padding = relleno*/
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.full-page {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img\AltajuegoImg.webp);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}

@@ -1,0 +1,85 @@
+﻿@model IEnumerable<OrbisGame.Models.UsuariosViewModel>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orbis Game</title>
+    <link rel="stylesheet" href="~/css/Style.css">
+</head>
+<body>
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href='#'>Orbis Game</a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a class="loginbtn" asp-area="" asp-controller="Home" asp-action="Productos">Nuestros Productos</a></li>
+                    <li><a class="loginbtn" asp-area="" asp-controller="Home" asp-action="AdminLogin">Administrador</a></li>
+                    <li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div id='login-form' class="login-page">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" onclick="login()" class='toggle-btn'>Login </button>
+                    <button type="button" onclick="register()" class='toggle-btn'>Registrate</button>
+                </div>
+                @*//formulario para el login del usuario*@
+            <form asp-action="Inicio" id='login' class='input-group-login' method="post">
+                @{
+                    if (ViewBag.ErrorLog != null)
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ViewBag.ErrorLog
+                        </div>
+                    }
+
+                   
+                    <input type="text" class='input-field' placeholder="Usuario" id="user"  name="Usuario" required>
+                    <input type="password" class='input-field' placeholder="Contraseña" id="pass"  name="clave" required>
+                    <h5 id="contraseña"><u>¿Olvidaste tu contraseña?</u></h5>
+                    <button type="submit" class='submit-btn'>Log In</button>
+                }
+            </form>
+
+                @*//formulario para que el  usuario se registre*@
+                <form id='register' asp-action="Registro" class='input-group-register' method="post">
+                    <input type="text" class='input-field' name="NombreyApellido" placeholder="NombreyApellido" required>
+                    <input type="text" class='input-field' name="Usuario" placeholder="Usuario" required>
+                    <input type="email" class='input-field' name="Mail" placeholder="Mail" required>
+                    <input type="password" class='input-field' name="Contraseña" placeholder="Contraseña" required>
+                    <button type="submit" class="submit-btn">Registrarse </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById('login');
+        var y = document.getElementById('register');
+        var z = document.getElementById('btn');
+        function register() {
+            x.style.left = '-400px';
+            y.style.left = '50px';
+            z.style.left = '110px';
+        }
+        function login() {
+            x.style.left = '50px';
+            y.style.left = '450px';
+            z.style.left = '0px';
+
+        }
+    </script>
+    <script>
+        var modal = document.getElementById('login-form');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+

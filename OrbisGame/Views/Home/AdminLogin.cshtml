@@ -1,0 +1,38 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orbis Game</title>
+    <link rel="stylesheet" href="~/css/Admin.css">
+</head>
+<body>
+    <div class="paginaAd">
+        <div class="navbar">
+            <div>
+                <a href='#'>Orbis Game</a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a class="loginbtn" asp-area="" asp-controller="Home" asp-action="Inicio">Volver</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="form-box">
+            <h1 class="admin">Administrador </h1>
+            <form id="login" class="input-group-login"  asp-action="AdminLogin" method="post">
+                @{
+                    if (ViewBag.ErrorLog != null)
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ViewBag.ErrorLog
+                        </div>
+                    }
+                }
+                <input type="text" class='input-field' placeholder="Usuario" name="Admin" required>
+                <input type="password" class='input-field' placeholder="Contraseña" name="Contraseña"  required>
+                <button type="submit" class="submit-btn">Ingresar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

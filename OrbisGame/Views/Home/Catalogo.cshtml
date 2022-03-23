@@ -1,0 +1,86 @@
+﻿@model IEnumerable<JuegosViewModel>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orbis Game</title>
+    <link rel="stylesheet" href="~/css/Menu.css" /> <!--ACA invoco al diseño (css) que esta en la clase site.css-->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+
+<body>
+    <!--ESTA ES LA VISTA PARA EL CATALOGO DE JUEGOS PARA DESCARGAR-->
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Opciones</h2>
+            <ul>
+                <!--CREO LOS ICONOS DEL MENU DE OPCIONES -->
+                <li><a href="../Home/MainUser"> <i class="fas fa-home"></i>Home</a></li> <!--fas se relaciona con el fas de la clase site.cc linea 108. alli le aplico eldiseño a todo lo que tenga fas-->
+                <li><a href="../Home/Descargas"> <i class="fas fa-cloud-download-alt"></i>Descargas</a></li> <!-- Lista de juegos descargados-->
+                <li><a href="../Home/Catalogo"><i class="fas fa-bomb"></i>Catalogo de juegos</a></li> <!--Catalogo de juegos para descargar-->
+                <li><a href="../Home/Descuento"> <i class="fas fa-tags"></i>Cupon de Descuento</a></li> 
+                <li><a href="../Home/Inicio"> <i class="fas fa-times"></i>Cerrar Sesion</a></li> <!--Cerrar sesion-->
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container">
+            <div class="container">
+                <div class="container">
+                    <div class="container">
+                        <div class="container">
+                            <div class="container">
+                                <div class="container">
+                                    <h5>Catálogo de Juegos para Descargar</h5>
+
+                                    <table class="table">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">Juego</th>
+                                                <th scope="col">Categoria</th>
+                                                <th scope="col">Compatible</th>
+                                                <th scope="col">Precio</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <form asp-controller="Home" asp-action="Catalogo" class="was-validated" method="post">
+                                            <thead>
+                                                @{
+                                                    if (Model != null)
+                                                    {
+                                                        foreach (JuegosViewModel game in Model)
+                                                        {
+                                                            <tr>
+                                                                <th scope="col" value=@game.Id_Juego>@game.Nom_Juego</th>
+                                                                <th scope="col" value=@game.Id_Juego>@game.Categorias</th>
+                                                                <th scope="col" value=@game.Id_Juego>@game.Compatibilidad </th>
+                                                                <th scope="col" value=@game.Id_Juego>$ @game.Precio </th>
+                                                                <th scope="col"><input type="submit" class="btn btn-success" asp-route-idJuego="@game.Id_Juego" value="Descargar"><i class="bi bi-download"></i></th>
+
+                                                            </tr>
+                                                        }
+                                                    }
+                                                }
+
+                                            </thead>
+                                        </form>                                      
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+</html>

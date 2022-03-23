@@ -1,0 +1,162 @@
+﻿@{
+    ViewData["Title"] = "Catalogo"; <!--Titulo de la pestaña-->
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orbis Game</title>
+    <link rel="stylesheet" href="~/css/Menu.css" /> <!--ACA invoco al diseño (css) que esta en la clase site.css-->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+
+    .get-in-touch {
+        max-width: 800px;
+        margin: 50px auto;
+        position: relative;
+    }
+
+    .get-in-touch .title {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 3.2em;
+        line-height: 48px;
+        padding-bottom: 48px;
+        color: #5543ca;
+        background: #5543ca;
+        background: -moz-linear-gradient(left,#f4524d 0%,#5543ca 100%) !important;
+        background: -webkit-linear-gradient(left,#f4524d 0%,#5543ca 100%) !important;
+        background: linear-gradient(to right,#f4524d 0%,#5543ca 100%) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }
+
+    .contact-form .form-field {
+        position: relative;
+        margin: 32px 0;
+    }
+
+    .contact-form .input-text {
+        display: block;
+        width: 100%;
+        height: 36px;
+        border-width: 0 0 2px 0;
+        border-color: #5543ca;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+
+    .contact-form .input-text:focus {
+        outline: none;
+    }
+
+    .contact-form .input-text:focus + .label,
+    .contact-form .input-text.not-empty + .label {
+        -webkit-transform: translateY(-24px);
+        transform: translateY(-24px);
+    }
+
+    .contact-form .label {
+        position: absolute;
+        left: 20px;
+        bottom: 11px;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #5543ca;
+        cursor: text;
+        transition: -webkit-transform .2s ease-in-out;
+        transition: transform .2s ease-in-out;
+        transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    }
+
+    .contact-form .submit-btn {
+        display: inline-block;
+        background-color: #000;
+        background-image: linear-gradient(125deg,#a72879,#064497);
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 16px;
+        padding: 8px 16px;
+        border: none;
+        width: 200px;
+        cursor: pointer;
+    }
+
+    
+    </style>
+</head>
+
+<body>
+    <!--ESTA ES LA VISTA PARA EL CATALOGO DE JUEGOS PARA DESCARGAR-->
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2><i class="fas fa-user-secret">Opciones</i></h2>
+            <ul>
+                <!--CREO LOS ICONOS DEL MENU DE OPCIONES -->
+                <li><a href="../Home/MainAdmin"> <i class="fas fa-home"></i>Home</a></li> <!--fas se relaciona con el fas de la clase site.cc linea 108. alli le aplico eldiseño a todo lo que tenga fas-->
+                <li><a href="../Home/AltaJuego"><i class="fab fa-playstation"></i>Alta de Juegos</a></li> <!-- Lista de juegos descargados-->
+                <li><a href="../Home/UsuariosActivos"><i class="fas fa-users"></i>Usuarios Activos</a></li> <!--Catalogo de juegos para descargar-->
+                <li><a href="../Home/Inicio"> <i class="fas fa-times"></i>Cerrar Sesion</a></li> <!--Cerrar sesion-->
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container">
+            <div class="container">
+                <div class="container">
+                    <div class="container">
+                        <div class="container">
+                            <div class="container">
+                                <div class="container">
+                                    <div class="full-page">
+                                        <section class="get-in-touch">
+                                            <h1 class="title">Alta de Juego</h1>
+                                            <form class="contact-form row" asp-action="AltaJuego" method="post">
+                                                <div class="form-field col-lg-6">
+                                                    <input id="name" name="Nom_Juego" class="input-text js-input" type="text" required>
+                                                    <label class="label" for="Nombre">Nombre</label>
+                                                </div>
+                                                <div class="form-field col-lg-6 ">
+                                                    <input id="email" name="Categorias" class="input-text js-input" type="text" required>
+                                                    <label class="label" for="Categoria">Categoria</label>
+                                                </div>
+                                                <div class="form-field col-lg-6 ">
+                                                    <input id="company" name="Precio" class="input-text js-input" type="text" required>
+                                                    <label class="label" for="Precio">Precio</label>
+                                                </div>
+                                                <div class="form-field col-lg-6 ">
+                                                    <input id="phone" name="Compatibilidad" class="input-text js-input" type="text" required>
+                                                    <label class="label" for="Compatibilidad">Compatibilidad</label>
+                                                </div>
+                                                <div class="form-field col-lg-12">
+                                                    <input class="submit-btn" type="submit" value="Ingresar">
+                                                </div>
+                                            </form>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+</html>
