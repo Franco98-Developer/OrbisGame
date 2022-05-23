@@ -5,7 +5,6 @@ C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\Orbisgame.deps.
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\Orbisgame.runtimeconfig.json
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\Orbisgame.runtimeconfig.dev.json
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\Orbisgame.dll
-C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\ref\Orbisgame.dll
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\Orbisgame.pdb
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -325,7 +324,6 @@ C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\ru\Microsoft.Co
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.csprojAssemblyReference.cache
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.AssemblyInfoInputs.cache
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.AssemblyInfo.cs
@@ -335,7 +333,6 @@ C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.MvcAp
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.RazorAssemblyInfo.cache
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.RazorAssemblyInfo.cs
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\staticwebassets\Orbisgame.StaticWebAssets.Manifest.cache
-C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\staticwebassets\Orbisgame.StaticWebAssets.xml
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\scopedcss\bundle\Orbisgame.styles.css
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.TagHelpers.input.cache
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.TagHelpers.output.cache
@@ -378,3 +375,6 @@ C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Razor\Views\Hom
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Razor\Views\Home\Altajuego.cshtml.g.cs
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Razor\Views\Home\UsuariosActivos.cshtml.g.cs
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Razor\Views\Home\Descuento.cshtml.g.cs
+C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net5.0\Orbisgame.StaticWebAssets.xml
+C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\Orbisgame.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net5.0\refint\Orbisgame.dll

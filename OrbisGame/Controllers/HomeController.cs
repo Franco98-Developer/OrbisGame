@@ -17,6 +17,12 @@ namespace Orbisgame.Controllers
 
         Seguridad seguridad = new Seguridad();
 
+        Juego game = new Juego();
+
+        Usuario users = new Usuario();
+
+        
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -71,7 +77,7 @@ namespace Orbisgame.Controllers
                     Contraseña = usuariosViewModel.Contraseña
 
                 };
-                seguridad.Registro(user);
+                users.Registro(user);
                 return View("Inicio");
             }
             catch
@@ -98,7 +104,7 @@ namespace Orbisgame.Controllers
                     Compatibilidad=juegosViewModel.Compatibilidad,
                     Precio=juegosViewModel.Precio
                 };
-                seguridad.RegistroJuego(juego);
+                game.RegistroJuego(juego);
                 return View("AltaJuego");
             }
             catch
@@ -114,7 +120,8 @@ namespace Orbisgame.Controllers
 
             try
             {
-                seguridad.DescargarJuego(int.Parse(HttpContext.Session.GetString("UserId")), idJuego);
+                game.DescargarJuego(int.Parse(HttpContext.Session.GetString("UserId")), idJuego);
+                
                 
 
             }
@@ -131,7 +138,7 @@ namespace Orbisgame.Controllers
         public IActionResult Descargas() //Index pasa a ser Descargas ahora
         {
            
-            var JuegosDescargados = seguridad.GetAllDescargas(HttpContext.Session.GetString("UserId"));
+            var JuegosDescargados = game.GetAllDescargas(HttpContext.Session.GetString("UserId"));
 
             
             List<JuegosViewModel> juegosViews = new List<JuegosViewModel>();
@@ -184,7 +191,7 @@ namespace Orbisgame.Controllers
 
         public IActionResult Catalogo()
         {
-            var CatalogoJuegos = seguridad.GetAllGame();
+            var CatalogoJuegos = game.GetAllGame();
 
             List<JuegosViewModel> juegoview = new List<JuegosViewModel>();
 
@@ -206,7 +213,7 @@ namespace Orbisgame.Controllers
 
         public IActionResult UsuariosActivos()
         {
-            var UserActive = seguridad.GetAllUsers();
+            var UserActive = users.GetAllUsers();
 
             List<UsuariosViewModel> userView = new List<UsuariosViewModel>();
 
@@ -228,7 +235,7 @@ namespace Orbisgame.Controllers
         [HttpPost]
         public IActionResult UsuariosActivos(int idUser)
         {
-            seguridad.eliminarUsuario(idUser);
+            users.eliminarUsuario(idUser);
             return RedirectToAction(nameof(UsuariosActivos));
         }
 

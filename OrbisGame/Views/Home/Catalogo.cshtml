@@ -8,6 +8,68 @@
     <title>Orbis Game</title>
     <link rel="stylesheet" href="~/css/Menu.css" /> <!--ACA invoco al diseño (css) que esta en la clase site.css-->
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
+    <style>
+        .container_buscar {
+            position: relative;
+            left: 48%;
+            top: 45%;
+            transform: translate(-48%,-20%);
+            padding: 10px;
+        }
+
+        .search {
+            outline: none;
+            box-sizing: border-box;
+            height: 60px;
+            width: 0;
+            padding: 0 20px;
+            color: #000;
+            border-radius: 50px;
+            font-size: 20px;
+            border: 1px solid #D50000;
+            transition: all .7s ease;
+        }
+
+        :placeholder {
+            color: grey;
+        }
+
+        .btn-search {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 80px;
+            height: 80px;
+            background: #D50000;
+            line-height: 80px;
+            border-radius: 50%;
+            text-align: center;
+            cursor: pointer;
+            transition: .5s;
+        }
+
+            .btn-search i {
+                font-size: 25px;
+                color: white;
+                line-height: 80px;
+                transition: all .7s ease;
+            }
+
+        .container_buscar:hover input {
+            width: 900px;
+        }
+
+        .container_buscar:hover i {
+            transform: rotate(-700deg);
+        }
+
+        .btn-search:hover {
+            background-color: red;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,11 +83,37 @@
                 <li><a href="../Home/MainUser"> <i class="fas fa-home"></i>Home</a></li> <!--fas se relaciona con el fas de la clase site.cc linea 108. alli le aplico eldiseño a todo lo que tenga fas-->
                 <li><a href="../Home/Descargas"> <i class="fas fa-cloud-download-alt"></i>Descargas</a></li> <!-- Lista de juegos descargados-->
                 <li><a href="../Home/Catalogo"><i class="fas fa-bomb"></i>Catalogo de juegos</a></li> <!--Catalogo de juegos para descargar-->
-                <li><a href="../Home/Descuento"> <i class="fas fa-tags"></i>Cupon de Descuento</a></li> 
-                <li><a href="../Home/Inicio"> <i class="fas fa-times"></i>Cerrar Sesion</a></li> <!--Cerrar sesion-->
+                <li><a href="../Home/Descuento"> <i class="fas fa-tags"></i>Cupon de Descuento</a></li>
+                <li><a href="#" onclick="aviso()"> <i class="fas fa-times"></i>Cerrar Sesion</a></li> <!--Cerrar sesion-->
+                <script>
+                    function aviso() {
+                        Swal.fire({
+                            title: 'Esta seguro de Cerrar Sesion?',
+                            text: "Para confirmar elija la opcion.",
+                            icon: 'warning',
+                            showCancelButton: true,
+                            confirmButtonColor: '#3085d6',
+                            cancelButtonColor: '#d33',
+                            confirmButtonText: 'Cerrar Sesion'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                Swal.fire(
+                                    'Confirmado!',
+                                    'Sesion finalizada.',
+                                    'success',
+                                     timers=7000,
+                                     window.location.replace("https://localhost:44375/Home/Inicio")
+                                    
+                                )
+                            }
+                        })
+                    }
+                </script>
             </ul>
         </div>
     </div>
+    <br />
+    <br />
 
     <div class="container">
         <div class="container">
@@ -34,10 +122,17 @@
                     <div class="container">
                         <div class="container">
                             <div class="container">
+                                <div class="container_buscar">
+
+                                    <input class="search" type="text" placeholder="Buscar">
+                                    <div class="btn-search">
+                                        <i onclick="actualizar" class="fa fa-search"></i>
+                                    </div>
+                                </div>
                                 <div class="container">
                                     <h5>Catálogo de Juegos para Descargar</h5>
 
-                                    <table class="table">
+                                    <table id="tabla_juegos" class="table">
                                         <thead class="thead-dark">
                                             <tr>
                                                 <th scope="col">Juego</th>
@@ -64,11 +159,17 @@
                                                             </tr>
                                                         }
                                                     }
+           
                                                 }
 
                                             </thead>
-                                        </form>                                      
+                                        </form>
                                     </table>
+                                    <script>
+                                        $(document).ready(function actualizar() {
+                                            $('#tabla_juegos').DataTable();
+                                        });
+                                    </script>
                                 </div>
                             </div>
                         </div>

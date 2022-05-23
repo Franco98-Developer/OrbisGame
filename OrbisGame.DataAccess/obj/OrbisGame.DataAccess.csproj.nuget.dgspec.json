@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj": {}
+    "C:\\Users\\franc\\source\\repos\\Orbisgame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj": {
+    "C:\\Users\\franc\\source\\repos\\Orbisgame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\franc\\source\\repos\\Orbisgame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj",
         "projectName": "OrbisGame.DataAccess",
-        "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj",
+        "projectPath": "C:\\Users\\franc\\source\\repos\\Orbisgame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj",
         "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\franc\\source\\repos\\Orbisgame\\OrbisGame.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.212\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ox+AG/vF8V7R8C8JqWwQpV1KUl8+dv2nwNtNDaDTEBdnZGtE2U0iavmWJbP2GVsBE0wbSgfPpcmW9K016NnnFA==",
+  "dgSpecHash": "u6c1eJ/BIg+ee6uJGmpko/+UTSzexPI+E8IvaddQwC65/p59MLxdBZh6oc2EQXbXPqkO1NkTBOPZLTrFDn/TJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\franc\\source\\repos\\Orbisgame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -1,8 +1,6 @@
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\bin\Debug\net5.0\OrbisGame.Entidades.deps.json
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\bin\Debug\net5.0\OrbisGame.Entidades.dll
-C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\bin\Debug\net5.0\ref\OrbisGame.Entidades.dll
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\bin\Debug\net5.0\OrbisGame.Entidades.pdb
-C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\OrbisGame.Entidades.csprojAssemblyReference.cache
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\OrbisGame.Entidades.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\OrbisGame.Entidades.AssemblyInfoInputs.cache
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\OrbisGame.Entidades.AssemblyInfo.cs
@@ -10,3 +8,5 @@ C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\Orbis
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\OrbisGame.Entidades.dll
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\ref\OrbisGame.Entidades.dll
 C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\OrbisGame.Entidades.pdb
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\OrbisGame.Entidades.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.Entidades\obj\Debug\net5.0\refint\OrbisGame.Entidades.dll
