@@ -20,7 +20,31 @@
                     <li><a href="../Home/Descargas"><i class="fas fa-cloud-download-alt"></i>Descargas</a></li> <!-- Lista de juegos descargados-->
                     <li><a href="../Home/Catalogo"><i class="fas fa-bomb"></i>Catalogo de juegos</a></li> <!--Catalogo de juegos para descargar-->
                     <li><a href="../Home/Descuento"> <i class="fas fa-tags"></i>Cupon de Descuento</a></li>
-                    <li><a href="../Home/Inicio"> <i class="fas fa-times"></i>Cerrar Sesion</a></li> <!--Cerrar sesion-->
+                    <li><a href="#" onclick="aviso()"> <i class="fas fa-times"></i>Cerrar Sesion</a></li> <!--Cerrar sesion-->
+                    <script>
+                    function aviso() {
+                        Swal.fire({
+                            title: 'Esta seguro de Cerrar Sesion?',
+                            text: "Para confirmar elija la opcion.",
+                            icon: 'warning',
+                            showCancelButton: true,
+                            confirmButtonColor: '#3085d6',
+                            cancelButtonColor: '#d33',
+                            confirmButtonText: 'Cerrar Sesion'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                Swal.fire(
+                                    'Confirmado!',
+                                    'Sesion finalizada.',
+                                    'success',
+                                     timers=7000,
+                                     window.location.replace("https://localhost:44375/Home/Inicio")
+                                    
+                                )
+                            }
+                        })
+                    }
+                </script>
                 </ul>
             </div>
         </div>
@@ -36,39 +60,21 @@
                                 <div class="container">
                                     <div class="container">
                                         <div class="container">
-                                            <h1>Bienvenidos a OrbisGame</h1>
-                                            <div class="carousel slide" id="main-carousel" data-ride="carousel">
-                                                <ol class="carousel-indicators">
-                                                    <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
-                                                    <li data-target="#main-carousel" data-slide-to="1"></li>
-                                                    <li data-target="#main-carousel" data-slide-to="2"></li>
-                                                    <li data-target="#main-carousel" data-slide-to="3"></li>
-                                                </ol><!-- /.carousel-indicators -->
-
-                                                <div class="carousel-inner">
-                                                    <div class="carousel-item active">
-                                                        <img class="d-block img-fluid" src="https://sm.ign.com/ign_es/screenshot/default/playstation-pc-steam_qe1u.jpg" alt="">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img class="d-block img-fluid" src="https://www.xtrafondos.com/descargar.php?id=2037&resolucion=1920x1200" alt="">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img class="d-block img-fluid" src="https://i.3djuegos.com/juegos/13689/playstation_now/fotos/ficha/playstation_now-4993238.jpg" alt="">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="https://wallpaperaccess.com/full/17452.jpg" alt="" class="d-block img-fluid">
-                                                    </div>
-                                                </div><!-- /.carousel-inner -->
-
-                                                <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
-                                                    <span class="carousel-control-prev-icon"></span>
-                                                    <span class="sr-only" aria-hidden="true">Prev</span>
-                                                </a>
-                                                <a href="#main-carousel" class="carousel-control-next" data-slide="next">
-                                                    <span class="carousel-control-next-icon"></span>
-                                                    <span class="sr-only" aria-hidden="true">Next</span>
-                                                </a>
-                                            </div><!-- /.carousel -->
+                                            <h2>Bienvenidos a Orbis Game</h2>
+                                            <div class="content-all">
+                                                <div class="content-carrousel">
+                                                    <figure><img src="../img/calificaciones-fut-fifa-22.jpg"></figure>
+                                                    <figure><img src="../img/counter-strike-global-offensive.webp"></figure>
+                                                    <figure><img src="../img/dragon-ball-fighterz-modo-historia_0.webp"></figure>
+                                                    <figure><img src="../img/EGAE23OINBCBVO6XOJ4BALT4PA.jpg"></figure>
+                                                    <figure><img src="../img/good.webp"></figure>
+                                                    <figure><img src="../img/gta5.jpg"></figure>
+                                                    <figure><img src="../img/MortalKombat11_Art.jpg"></figure>
+                                                    <figure><img src="../img/Resident-Evil-6-Logo.webp"></figure>
+                                                    <figure><img src="../img/Resident_Evil_4_screenshot8.webp"></figure>
+                                                    <figure><img src="../img/WWE-2K-1.jpg"></figure>
+                                                </div>
+                                            </div>
                                         </div><!-- /.container -->
                                     </div>
                                     </div>

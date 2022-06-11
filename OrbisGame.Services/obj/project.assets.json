@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -133,7 +133,7 @@
       },
       "OrbisGame.DataAccess/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "System.Data.SqlClient": "4.8.3"
         },
@@ -146,7 +146,7 @@
       },
       "OrbisGame.Entidades/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/OrbisGame.Entidades.dll": {}
         },
@@ -482,7 +482,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "OrbisGame.DataAccess >= 1.0.0",
       "OrbisGame.Entidades >= 1.0.0",
       "System.Data.SqlClient >= 4.8.3"
@@ -505,15 +505,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "C:\\Users\\franc\\source\\repos\\Orbisgame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj": {
               "projectPath": "C:\\Users\\franc\\source\\repos\\Orbisgame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj"
@@ -531,8 +531,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "System.Data.SqlClient": {
             "target": "Package",

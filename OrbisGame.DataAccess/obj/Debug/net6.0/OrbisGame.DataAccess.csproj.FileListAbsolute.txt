@@ -1,0 +1,12 @@
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\bin\Debug\net6.0\OrbisGame.DataAccess.deps.json
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\bin\Debug\net6.0\OrbisGame.DataAccess.dll
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\bin\Debug\net6.0\OrbisGame.DataAccess.pdb
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\OrbisGame.DataAccess.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\OrbisGame.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\OrbisGame.DataAccess.AssemblyInfoInputs.cache
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\OrbisGame.DataAccess.AssemblyInfo.cs
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\OrbisGame.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\OrbisGame.DataAccess.dll
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\refint\OrbisGame.DataAccess.dll
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\OrbisGame.DataAccess.pdb
+C:\Users\franc\source\repos\Orbisgame\OrbisGame.DataAccess\obj\Debug\net6.0\ref\OrbisGame.DataAccess.dll

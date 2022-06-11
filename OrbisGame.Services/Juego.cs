@@ -119,5 +119,52 @@ namespace OrbisGame.Services
             return result;
 
         }
+
+
+        public List<Juegos> SearchbyGameName(string nombrecampo, string nombre)
+        {
+            List<Juegos> game = new List<Juegos>();
+
+            if (nombre!=null)
+            {
+                var dataResult = dataAccess.GetAll("SELECT * FROM Juegos WHERE " + nombrecampo + "=" + "'" + nombre + "'", null);
+
+                if (dataResult != null && dataResult.Rows.Count > 0)
+                {
+                    foreach (DataRow row in dataResult.Rows)
+                    {
+                        game.Add(new Juegos()
+                        {
+                            Id_Juego = int.Parse(row["Id_Juego"].ToString()),
+                            Nom_Juego = row["Nom_Juego"].ToString(),
+                            Categorias = row["Categorias"].ToString(),
+                            Compatibilidad = row["Compatibilidad"].ToString(),
+                            Precio = row["Precio"].ToString()
+                        });
+                    }
+                }
+
+            }
+            else
+            {
+                var dataResult = dataAccess.GetAll("SELECT * from Juegos", null);
+
+                if (dataResult != null && dataResult.Rows.Count > 0)
+                {
+                    foreach (DataRow row in dataResult.Rows)
+                    {
+                        game.Add(new Juegos()
+                        {
+                            Id_Juego = int.Parse(row["Id_Juego"].ToString()),
+                            Nom_Juego = row["Nom_Juego"].ToString(),
+                            Categorias = row["Categorias"].ToString(),
+                            Compatibilidad = row["Compatibilidad"].ToString(),
+                            Precio = row["Precio"].ToString()
+                        });
+                    }
+                }
+            }
+            return game;
+        }
     }
 }

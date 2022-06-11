@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="~/css/Menu.css" /> <!--ACA invoco al diseño (css) que esta en la clase site.css-->
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="//cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
     <style>
         .container_buscar {
             position: relative;
@@ -122,13 +122,23 @@
                     <div class="container">
                         <div class="container">
                             <div class="container">
-                                <div class="container_buscar">
-
+                                @*<div class="container_buscar">
                                     <input class="search" type="text" placeholder="Buscar">
                                     <div class="btn-search">
                                         <i onclick="actualizar" class="fa fa-search"></i>
                                     </div>
-                                </div>
+                                     
+                                </div>*@
+                                <form class="contact-form row" asp-controller="Home" asp-action="Catalogo" method="get">
+                                    <div class="form-field col-lg-3 ">
+                                        <input id="nombre" name="nombre" class="input-text js-input" type="text">                 
+                                    </div>
+                                    <div class="form-field col-lg-12">
+                                        <input class="submit-btn" type="submit" value="Buscar">
+                                    </div>
+                                </form>
+                               
+                                
                                 <div class="container">
                                     <h5>Catálogo de Juegos para Descargar</h5>
 
@@ -154,10 +164,12 @@
                                                                 <th scope="col" value=@game.Id_Juego>@game.Categorias</th>
                                                                 <th scope="col" value=@game.Id_Juego>@game.Compatibilidad </th>
                                                                 <th scope="col" value=@game.Id_Juego>$ @game.Precio </th>
-                                                                <th scope="col"><input type="submit" class="btn btn-success" asp-route-idJuego="@game.Id_Juego" value="Descargar"><i class="bi bi-download"></i></th>
-
+                                                                <th scope="col"><input  type="submit" class="btn btn-success" asp-route-idJuego="@game.Id_Juego" value="Descargar"><i class="bi bi-download"></i></th>
+                                                                
                                                             </tr>
                                                         }
+                                                        
+
                                                     }
            
                                                 }

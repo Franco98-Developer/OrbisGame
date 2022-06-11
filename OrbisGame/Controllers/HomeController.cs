@@ -45,6 +45,11 @@ namespace Orbisgame.Controllers
             return View();
         }
 
+        public IActionResult Tarjeta()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Inicio(string Usuario, string clave)
         {
@@ -121,8 +126,10 @@ namespace Orbisgame.Controllers
             try
             {
                 game.DescargarJuego(int.Parse(HttpContext.Session.GetString("UserId")), idJuego);
+                return View("Tarjeta");
                 
-                
+
+
 
             }
             catch (Exception ex)
@@ -132,10 +139,87 @@ namespace Orbisgame.Controllers
             }
 
 
-            return RedirectToAction("Catalogo");
+            return RedirectToAction("Descargas");
         }
 
-        public IActionResult Descargas() //Index pasa a ser Descargas ahora
+        //public IActionResult BuscarporNombre(string valor)
+        //{
+        //    var CatalogoJuegos = game.SearchbyGameName("Nom_Juego", valor);
+
+
+
+        //    List<JuegosViewModel> juegoview = new List<JuegosViewModel>();
+
+        //    foreach (Juegos juego in CatalogoJuegos)
+        //    {
+        //        juegoview.Add(new JuegosViewModel()
+        //        {
+        //            Id_Juego = juego.Id_Juego,
+        //            Nom_Juego = juego.Nom_Juego,
+        //            Categorias = juego.Categorias,
+        //            Compatibilidad = juego.Compatibilidad,
+        //            Precio = juego.Precio
+        //        });
+                
+        //    }
+        //    return View(juegoview);
+
+
+        //}
+
+        public IActionResult Catalogo()
+        {
+            var CatalogoJuegos = game.GetAllGame();
+
+            List<JuegosViewModel> juegoview = new List<JuegosViewModel>();
+
+            foreach (Juegos juego in CatalogoJuegos)
+            {
+                juegoview.Add(new JuegosViewModel()
+                {
+                    Id_Juego = juego.Id_Juego,
+                    Nom_Juego = juego.Nom_Juego,
+                    Categorias = juego.Categorias,
+                    Compatibilidad = juego.Compatibilidad,
+                    Precio = juego.Precio
+                });
+            }
+
+            return View(juegoview);
+        }
+
+        [HttpGet]
+        public IActionResult Catalogo(string nombre)
+        {
+            try
+            {
+                var CatalogoJuegos = game.SearchbyGameName("Nom_Juego", nombre);
+
+
+                List<JuegosViewModel> juegoview = new List<JuegosViewModel>();
+
+                foreach (Juegos juego in CatalogoJuegos)
+                {
+                    juegoview.Add(new JuegosViewModel()
+                    {
+                        Id_Juego = juego.Id_Juego,
+                        Nom_Juego = juego.Nom_Juego,
+                        Categorias = juego.Categorias,
+                        Compatibilidad = juego.Compatibilidad,
+                        Precio = juego.Precio
+                    });
+                }
+                return View(juegoview);
+            }
+            catch (Exception ex)
+            {
+
+                return View("Inicio");
+            }
+            return RedirectToAction("Catalogo");
+        }
+        
+        public IActionResult Descargas() 
         {
            
             var JuegosDescargados = game.GetAllDescargas(HttpContext.Session.GetString("UserId"));
@@ -161,6 +245,7 @@ namespace Orbisgame.Controllers
         {
             return View();
         }
+        
 
         [HttpPost]
         public IActionResult AdminLogin(string Admin, string Contraseña)
@@ -188,28 +273,6 @@ namespace Orbisgame.Controllers
         {
             return View();
         }
-
-        public IActionResult Catalogo()
-        {
-            var CatalogoJuegos = game.GetAllGame();
-
-            List<JuegosViewModel> juegoview = new List<JuegosViewModel>();
-
-            foreach (Juegos juego in CatalogoJuegos)
-            {
-                juegoview.Add(new JuegosViewModel()
-                {
-                   Id_Juego=juego.Id_Juego,
-                   Nom_Juego=juego.Nom_Juego,
-                   Categorias=juego.Categorias,
-                   Compatibilidad=juego.Compatibilidad,
-                   Precio=juego.Precio
-                });
-            }
-
-            return View(juegoview);
-        }
-
 
         public IActionResult UsuariosActivos()
         {
