@@ -62,6 +62,7 @@ namespace Orbisgame.Controllers
             }
             else
             {
+                
                 ViewBag.ErrorLog = "Usuario o Contraseña Incorrectas";
                 return View("Inicio");
             }

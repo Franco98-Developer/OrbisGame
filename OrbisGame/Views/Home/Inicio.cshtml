@@ -40,9 +40,11 @@
                    
                     <input type="text" class='input-field' placeholder="Usuario" id="user"  name="Usuario" required>
                     <input type="password" class='input-field' placeholder="Contraseña" id="pass"  name="clave" required>
-                    <h5 id="contraseña"><u>¿Olvidaste tu contraseña?</u></h5>
+                    
+                     <a class="button" asp-area="" asp-controller="Security" asp-action="PasswordRecovery">¿Olvidaste tu contraseña?</a>
                     <button type="submit" class='submit-btn'>Log In</button>
                 }
+            
             </form>
 
                 @*//formulario para que el  usuario se registre*@

@@ -93,5 +93,56 @@ namespace OrbisGame.Services
             }
             return users;
         }
+
+        public bool CambiarPassword(string usuario, int randomPIN)
+        {
+
+            bool result = true;
+            //A continuacion se sanitizo la parte WHERE Mail='"+usuario+"'" - para que no arroje errores la consulta
+            string SQLInsert = "UPDATE Usuarios SET Contraseña=" + randomPIN + " WHERE Mail='" + usuario + "'";
+            List<SqlParameter> lstParameters = new List<SqlParameter>();
+
+            lstParameters.Add(new SqlParameter() { ParameterName = "@Mail", Value = usuario });
+            lstParameters.Add(new SqlParameter() { ParameterName = "@Contraseña", Value = randomPIN });
+
+
+            var insertResult = dataAccess.Insert(SQLInsert, lstParameters, true);
+
+            if (insertResult != null)
+            {
+
+            }
+            else
+            {
+                result = false;
+            }
+
+            return result;
+
+        }
+
+        public string ObtenerUsuarioporMail(string Mail)
+        {
+
+            string result = null;
+            string SQLInsert = "SELECT Usuario from Usuarios where Mail=@Mail";
+            List<SqlParameter> lstParameters = new List<SqlParameter>();
+            lstParameters.Add(new SqlParameter() { ParameterName = "@Mail", Value = Mail });
+
+            //RETORNA TRUE en vez del Usuario            
+            var dataResult = dataAccess.GetRecord(SQLInsert, lstParameters);
+
+
+            if (dataResult != null && dataResult.Rows.Count > 0)
+            {
+                result = dataResult.Rows[0].Field<string>("Usuario");
+
+
+            }
+
+            return result;
+
+        }
     }
 }
+

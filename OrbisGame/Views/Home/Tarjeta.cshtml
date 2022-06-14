@@ -6,7 +6,8 @@
         <title>Formulario de Tarjeta de Crédito Dinámico</title>
         <link href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="~/css/Stylecard.css">
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       @* <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>*@
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </head>
 
     <body>
@@ -100,29 +101,16 @@
                 </div>
                 <button onclick="notificacion()"  class="btn-enviar">Pagar</button>
                 <script>
-                        function notificacion(){                                                
-                            Swal.fire({
-                                timers=7000
-                                title: "¡Esta seguro en Descargar el juego?",
-                                text: "Para confirmar elija la opcion.",
-                                icon: 'warning',
-                                showCancelButton: true,
-                                confirmButtonColor: '#3085d6',
-                                cancelButtonColor: '#d33',
-                                confirmButtonText: 'Aceptar'
-                                timers=7000
-                            }).then((result) => {
-                                if (result.isConfirmed) {
-                                    Swal.fire(
-                                        'Confirmado!',
-                                        'Juego descargado.',
-                                        'success',
-                                         timers=7000,
-                                         window.location.replace("https://localhost:44375/Home/Descargas")                                                             
-                                    
-                                    )
-                                }
-                            })
+                        function notificacion(){     
+                            swal("Good job!", "You clicked the button!", "success");
+                            window.location.replace("https://localhost:44375/Home/Catalogo");
+                            //Swal.fire({
+                            //  position: 'top-end',
+                            //  icon: 'success',
+                            //  title: 'Your work has been saved',
+                            //  showConfirmButton: false,
+                            //  timer: 2500
+                            //})
                         }                                                     
                 </script>
                 

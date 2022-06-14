@@ -14,8 +14,4 @@
     <ProjectReference Include="..\OrbisGame.Services\OrbisGame.Services.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Security\" />
-  </ItemGroup>
-
 </Project>
