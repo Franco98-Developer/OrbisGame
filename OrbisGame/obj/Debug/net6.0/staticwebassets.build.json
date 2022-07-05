@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fqRkxxFdRBUvEvJW4fvXTkezQlfH5r5wCwuIdol+soQ=",
+  "Hash": "u7yF9JH/arbOZ4YpNydILxItloWoC1/wu7ZZ3aD5zpM=",
   "Source": "Orbisgame",
   "BasePath": "_content/Orbisgame",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Orbisgame\\wwwroot",
       "Source": "Orbisgame",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\css\\Admin.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\css\\Admin.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "css/Admin.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\css\\Menu.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\css\\Menu.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "css/Menu.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Menu.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\css\\site.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\css\\Style.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\css\\Style.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "css/Style.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Style.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\css\\Stylecard.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\css\\Stylecard.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "css/Stylecard.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Stylecard.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\favicon.ico",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\AltajuegoImg.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\AltajuegoImg.webp",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/AltajuegoImg.webp",
       "AssetKind": "All",
@@ -136,10 +136,180 @@
       "OriginalItemSpec": "wwwroot\\img\\AltajuegoImg.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\calificaciones-fut-fifa-22.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\anuncio1.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/anuncio1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\anuncio1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\anuncio2.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/anuncio2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\anuncio2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\anuncio3.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/anuncio3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\anuncio3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\anuncio4.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/anuncio4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\anuncio4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\anuncio5.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/anuncio5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\anuncio5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\anuncio6.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/anuncio6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\anuncio6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\blog1.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/blog1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\blog2.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/blog2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\blog3.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/blog3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\blog4.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/blog4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\calificaciones-fut-fifa-22.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/calificaciones-fut-fifa-22.jpg",
       "AssetKind": "All",
@@ -153,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\calificaciones-fut-fifa-22.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\chip.jpeg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\chip.jpeg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/chip.jpeg",
       "AssetKind": "All",
@@ -170,10 +340,27 @@
       "OriginalItemSpec": "wwwroot\\img\\chip.jpeg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\counter-strike-global-offensive.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\control.svg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/control.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\control.svg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\counter-strike-global-offensive.webp",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/counter-strike-global-offensive.webp",
       "AssetKind": "All",
@@ -187,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\counter-strike-global-offensive.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\crash bandicoot.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\crash bandicoot.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/crash bandicoot.jpg",
       "AssetKind": "All",
@@ -204,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\crash bandicoot.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\deadspace1.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\deadspace1.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/deadspace1.jpg",
       "AssetKind": "All",
@@ -221,10 +408,27 @@
       "OriginalItemSpec": "wwwroot\\img\\deadspace1.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\dragon-ball-fighterz-modo-historia_0.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\destacada.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/destacada.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\destacada.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\dragon-ball-fighterz-modo-historia_0.webp",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/dragon-ball-fighterz-modo-historia_0.webp",
       "AssetKind": "All",
@@ -238,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\dragon-ball-fighterz-modo-historia_0.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\EGAE23OINBCBVO6XOJ4BALT4PA.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\EGAE23OINBCBVO6XOJ4BALT4PA.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/EGAE23OINBCBVO6XOJ4BALT4PA.jpg",
       "AssetKind": "All",
@@ -255,10 +459,27 @@
       "OriginalItemSpec": "wwwroot\\img\\EGAE23OINBCBVO6XOJ4BALT4PA.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\fifa20222.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\encuentra.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/encuentra.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\encuentra.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\fifa20222.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/fifa20222.jpg",
       "AssetKind": "All",
@@ -272,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fifa20222.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\FONDO-PORTADA-PS4.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\FONDO-PORTADA-PS4.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/FONDO-PORTADA-PS4.jpg",
       "AssetKind": "All",
@@ -289,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\FONDO-PORTADA-PS4.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\fondotarjeta.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\fondotarjeta.webp",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/fondotarjeta.webp",
       "AssetKind": "All",
@@ -306,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fondotarjeta.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\fondotarjeta2.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\fondotarjeta2.webp",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/fondotarjeta2.webp",
       "AssetKind": "All",
@@ -323,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fondotarjeta2.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\fondotarjeta3.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\fondotarjeta3.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/fondotarjeta3.jpg",
       "AssetKind": "All",
@@ -340,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fondotarjeta3.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\god of war.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\god of war.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/god of war.jpg",
       "AssetKind": "All",
@@ -357,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\god of war.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\good.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\good.webp",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/good.webp",
       "AssetKind": "All",
@@ -374,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\good.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\gran tusimo.png",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\gran tusimo.png",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/gran tusimo.png",
       "AssetKind": "All",
@@ -391,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gran tusimo.png"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\gta5.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\gta5.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/gta5.jpg",
       "AssetKind": "All",
@@ -408,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gta5.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\gtav.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\gtav.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/gtav.jpg",
       "AssetKind": "All",
@@ -425,10 +646,112 @@
       "OriginalItemSpec": "wwwroot\\img\\gtav.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\littlebigplanet.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\header.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/header.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\header.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\icono_micro.svg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/icono_micro.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icono_micro.svg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\icono1.svg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/icono1.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icono1.svg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\icono2.svg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/icono2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icono2.svg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\icono3.svg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/icono3.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icono3.svg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\jugadores.svg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
+      "BasePath": "_content/Orbisgame",
+      "RelativePath": "img/jugadores.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jugadores.svg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\littlebigplanet.jpg",
+      "SourceId": "Orbisgame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/littlebigplanet.jpg",
       "AssetKind": "All",
@@ -442,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\littlebigplanet.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\LogoPs.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\LogoPs.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/LogoPs.jpg",
       "AssetKind": "All",
@@ -459,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\LogoPs.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\MasterCard.png",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\MasterCard.png",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/MasterCard.png",
       "AssetKind": "All",
@@ -476,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\MasterCard.png"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\Mbape.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\Mbape.webp",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/Mbape.webp",
       "AssetKind": "All",
@@ -493,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Mbape.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\mortal.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\mortal.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/mortal.jpg",
       "AssetKind": "All",
@@ -510,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mortal.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\MortalKombat11_Art.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\MortalKombat11_Art.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/MortalKombat11_Art.jpg",
       "AssetKind": "All",
@@ -527,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\MortalKombat11_Art.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\Pes.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\Pes.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/Pes.jpg",
       "AssetKind": "All",
@@ -544,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Pes.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\Promo1.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\Promo1.webp",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/Promo1.webp",
       "AssetKind": "All",
@@ -561,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Promo1.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\Promo2.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\Promo2.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/Promo2.jpg",
       "AssetKind": "All",
@@ -578,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Promo2.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\Promo3.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\Promo3.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/Promo3.jpg",
       "AssetKind": "All",
@@ -595,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Promo3.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\Resident_Evil_4_screenshot8.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\Resident_Evil_4_screenshot8.webp",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/Resident_Evil_4_screenshot8.webp",
       "AssetKind": "All",
@@ -612,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Resident_Evil_4_screenshot8.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\resident-evil-4.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\resident-evil-4.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/resident-evil-4.jpg",
       "AssetKind": "All",
@@ -629,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\resident-evil-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\Resident-Evil-6-Logo.webp",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\Resident-Evil-6-Logo.webp",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/Resident-Evil-6-Logo.webp",
       "AssetKind": "All",
@@ -646,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Resident-Evil-6-Logo.webp"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\sonic.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\sonic.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/sonic.jpg",
       "AssetKind": "All",
@@ -663,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\sonic.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\the-last-of-us-digital-ps3.png",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\the-last-of-us-digital-ps3.png",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/the-last-of-us-digital-ps3.png",
       "AssetKind": "All",
@@ -680,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\the-last-of-us-digital-ps3.png"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\uncharted-4.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\uncharted-4.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/uncharted-4.jpg",
       "AssetKind": "All",
@@ -697,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\uncharted-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\Visa-Logo.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\Visa-Logo.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/Visa-Logo.jpg",
       "AssetKind": "All",
@@ -714,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Visa-Logo.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\img\\WWE-2K-1.jpg",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\img\\WWE-2K-1.jpg",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "img/WWE-2K-1.jpg",
       "AssetKind": "All",
@@ -731,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\WWE-2K-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\js\\main.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -748,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\js\\site.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -765,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -782,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -799,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -816,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -833,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -850,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -867,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -884,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -901,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -918,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -935,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -952,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -969,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -986,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1003,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1020,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1037,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1054,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1071,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1088,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1105,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1122,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1139,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1156,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1173,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1190,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1207,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1224,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1241,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1258,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1275,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1292,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1309,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Orbisgame",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\franc\\source\\repos\\Orbisgame\\Orbisgame\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\wwwroot\\",
       "BasePath": "_content/Orbisgame",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

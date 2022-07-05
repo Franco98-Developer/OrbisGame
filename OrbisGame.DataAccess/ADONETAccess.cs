@@ -7,7 +7,7 @@ namespace OrbisGame.DataAccess
 {
     public class ADONETAccess
     {
-        private string ConnectionString = "Data Source=LAPTOP-8IOVNCF4; database=CaiserBot; Integrated Security=true";
+        private string ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\ORBIS\CaiserBot.mdf;Integrated Security=True;Connect Timeout=30";
         SqlCommand cmd = null;
         private SqlConnection GetConnection()
         {

@@ -1,0 +1,582 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>juegos</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            html {
+                box-sizing: border-box;
+                font-size: 62.5%;
+            }
+
+            *, *::before, *:after {
+                box-sizing: inherit;
+            }
+
+            body {
+                font-family: 'Hind Siliguri', sans-serif;
+                font-size: 1.6rem;
+                line-height: 2;
+                background: #232220;
+            }
+
+            img {
+                max-width: 100%;
+            }
+
+            .contenedor {
+                width: 95%;
+                max-width: 120rem;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font-size: 3.8rem;
+                color:black;
+            }
+
+
+            h2 {
+                font-size: 3.4rem;
+                color: #fff;
+            }
+
+            h3 {
+                font-size: 3rem;
+                color: black;
+            }
+
+            h4 {
+                font-size: 2.6rem;
+                color: black;
+            }
+
+            p {
+                color: black;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .seccion {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            .fw-300 {
+                font-weight: 300;
+            }
+
+            .centrar-texto {
+                text-align: center;
+            }
+
+            .d-block {
+                display: block !important;
+            }
+
+            .contenido-centrado {
+                max-width: 800px;
+            }
+
+            .boton {
+                color: #fff;
+                font-weight: 700;
+                text-decoration: none;
+                font-size: 1.8rem;
+                padding: 1rem 3rem;
+                margin-top: 3rem;
+                display: inline-block;
+                text-align: center;
+                border: none;
+                display: block;
+                flex: 0 0 100%;
+            }
+
+            @media (min-width: 768px) {
+                .boton {
+                    display: inline-block;
+                    flex: 0 0 auto;
+                }
+            }
+
+            .boton:hover {
+                cursor: pointer;
+            }
+
+            .boton-amarillo {
+                background-color: #00ad26;
+            }
+
+            .boton-verde {
+                background-color: #00ad26;
+            }
+
+            .site-header {
+                background-color: #333;
+                padding: 1rem 0 3rem 0;
+            }
+
+                .site-header.inicio {
+                    background-image: linear-gradient( rgba(0,0,0,0.3),rgba(0,0,0,0.3) ),url(https://franco98.000webhostapp.com/Istic/header.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    min-height: 60rem;
+                }
+
+            .contenido-header {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: center;
+            }
+
+            @media (min-width: 768px) {
+                .contenido-header {
+                    text-align: left;
+                }
+            }
+
+            .contenido-header h1 {
+                text-align: center;
+                color: #fff;
+                font-size: 76px;
+                line-height: 1.2;
+                font-weight: 700;
+                padding-top: 100px;
+            }
+
+            .barra {
+                padding-top: 1rem;
+            }
+
+            @media (min-width: 768px) {
+                .barra {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+
+            .navegacion a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 2.2rem;
+                display: block;
+            }
+
+            @media (min-width: 768px) {
+                .navegacion a {
+                    display: inline-block;
+                    font-size: 1.8rem;
+                    margin-right: 2rem;
+                }
+
+                .navegacion a:last-of-type {
+                    margin: 0;
+                }
+            }
+
+            .navegacion a:hover {
+                color: #00ad26;
+            }
+
+            .mobile-menu img {
+                width: 5rem;
+            }
+
+            @media (min-width: 768px) {
+                .mobile-menu {
+                    display: none;
+                }
+            }
+
+            .navegacion:target {
+                display: block;
+            }
+
+            .navegacion {
+                display: none;
+            }
+
+            @media (min-width: 768px) {
+                .navegacion {
+                    display: block;
+                }
+            }
+
+            @media (min-width: 768px) {
+                .iconos-nosotros {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            .icono {
+                text-align: center;
+            }
+
+            @media (min-width: 768px) {
+                .icono {
+                    flex-basis: calc(33.3% - 1rem);
+                }
+            }
+
+            .icono h3 {
+                text-transform: uppercase;
+            }
+
+            @media (min-width: 768px) {
+                .contenedor-anuncios {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+            }
+
+            .anuncio {
+                border: 1px solid var(--border-color-light);
+                background-color: #282828;
+                margin-bottom: 2rem;
+            }
+
+            @media (min-width: 768px) {
+                .anuncio {
+                    flex: 0 0 calc(33.3% - 1rem);
+                }
+            }
+
+            .contenido-anuncio {
+                padding: 2rem;
+            }
+
+            .contenido-anuncio h3,
+            .contenido-anuncio p {
+                margin: 0;
+            }
+
+            .precio {
+                color: #00ad26;
+                font-weight: 700;
+            }
+
+            .iconos-caracteristicas {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                justify-content: space-evenly;
+                flex: 1;
+                max-width: 500px;
+            }
+
+            .iconos-caracteristicas li {
+                display: flex;
+            }
+
+            .iconos-caracteristicas li img {
+                margin-right: 2rem;
+            }
+
+            .ver-todas {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .imagen-contacto {
+                background-image: linear-gradient( rgba(0,0,0,0.3),rgba(0,0,0,0.3) ),url(https://franco98.000webhostapp.com/Istic/encuentra.jpg);
+                background-position: center center;
+                background-size: cover;
+                height: 40rem;
+                display: flex;
+                align-items: center;
+            }
+
+            .contenido-contacto {
+                flex: 0 0 95%;
+                color: #fff;
+            }
+
+            .contenido-contacto p {
+                font-size: 1.8rem;
+            }
+
+            @media (min-width: 768px) {
+                .seccion-inferior {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .seccion-inferior .blog {
+                    flex-basis: 60%;
+                }
+            }
+
+            .entrada-blog {
+                margin-bottom: 2rem;
+            }
+
+            @media (min-width: 768px) {
+                .entrada-blog {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            .entrada-blog:last-of-type {
+                margin-bottom: 0;
+            }
+
+            @media (min-width: 768px) {
+                .entrada-blog .imagen {
+                    flex-basis: 40%;
+                }
+
+                .entrada-blog .texto-entrada {
+                    flex-basis: calc(60% - 3rem);
+                }
+            }
+
+            .texto-entrada a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .texto-entrada h4 {
+                margin: 0;
+                line-height: 1.4;
+            }
+
+            .texto-entrada h4::after {
+                content: '';
+                display: block;
+                width: 15rem;
+                height: .5rem;
+                background: #00ad26;
+            }
+
+            .texto-entrada span {
+                color: black;
+            }
+
+            .site-footer {
+                background: #333;
+                margin: 0;
+            }
+
+            .contenedor-footer {
+                padding: 3rem 0;
+                text-align: center;
+            }
+
+            @media (min-width: 768px) {
+                .contenedor-footer {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            .site-footer nav {
+                display: none;
+            }
+
+            @media (min-width: 768px) {
+                .site-footer nav {
+                    display: block;
+                }
+            }
+
+            copyright {
+                margin: 0;
+                color: #ffff;
+            }
+
+
+            /**Nosotros**/
+            @media (min-width: 768px) {
+                .contenido-nosotros {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-column-gap: 2rem;
+                }
+            }
+
+            .texto-nosotros blockquote {
+                font-weight: 900;
+                font-size: 2rem;
+                margin: 0;
+                padding: 1rem 0 3rem 0;
+                color: #fff;
+            }
+        </style>
+    </head>
+<body>
+
+    <header class="site-header inicio">
+        <div class="contenedor contenido-header">
+           
+            <h1>[username] aqui tienes las Novedades de Orbis Play</h1>
+        </div>
+    </header>
+
+
+
+    <main class="seccion contenedor">
+        <h2 class="fw-300 centrar-texto">Proximos Ingresos</h2>
+        <div class="contenedor-anuncios">
+
+            <div class="anuncio">
+                <img src="https://franco98.000webhostapp.com/Istic/anuncio1.jpg" alt="">
+                <div class="contenido.anuncio">
+                    <h3>Watch Dogs</h3>
+                    <p> Juego de Accion. </p>
+                    <p class="precio">$9,000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/auricular.png" width="20px">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/consola-de-video.png" width="30px">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/descargando.png" width="30px">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="boton boton-amarillo d-block">Ver Juego</a>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="https://franco98.000webhostapp.com/Istic/anuncio2.jpg" alt="">
+                <div class="contenido.anuncio">
+                    <h3>Hald Reach</h3>
+                    <p>Juego de Accion. </p>
+                    <p class="precio">$10,000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/auricular.png" width="20px">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/consola-de-video.png" width="30px">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/descargando.png" width="30px">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="boton boton-amarillo d-block">Ver Juego</a>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="https://franco98.000webhostapp.com/Istic/anuncio3.jpg" alt="">
+                <div class="contenido.anuncio">
+                    <h3>Tomb Raider </h3>
+                    <p> Juego de Aventura. </p>
+                    <p class="precio">$12,000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/auricular.png" width="20px">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/consola-de-video.png" width="30px">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="https://franco98.000webhostapp.com/Istic/descargando.png" width="30px">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="boton boton-amarillo d-block">Ver Juego</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="imagen-contacto">
+        <div class="contenedor contenido-contacto">
+            <h2>Novedades</h2>
+            <p>Descubri las ultimas novedades ingresando a Orbis Play</p>
+
+        </div>
+    </section>
+
+    <h3 class="centrar-texto fw-300">Nuestro Blog</h3>
+    <div class="seccion-inferior contenedor seccion">
+
+        <section class="blog">
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="https://franco98.000webhostapp.com/Istic/blog1.jpg" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="entrada.html">
+                        <h4>Watch Dogs</h4>
+                        <p>Escrito el:20/10/2019 por: Admin</p>
+                        <p>Juego de Entretenimiento y accion.</p>
+                    </a>
+                </div>
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="https://franco98.000webhostapp.com/Istic/blog2.jpg" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="entrada.html">
+                        <h4>Hald Reach</h4>
+                    </a>
+                    <p>Escrito el: 20/10/2019 por: Admin.</p>
+                    <p>Juego de Entretenimiento y accion.</p>
+                </div>
+            </article>
+        </section>
+        <section class="blog">
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="https://franco98.000webhostapp.com/Istic/anuncio6.jpg" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="entrada.html">
+                        <h4>Tomb Raider</h4>
+                    </a>
+                    <p>Escrito el: 20/10/2019 por: Admin.</p>
+                    <p>Juego de Entretenimiento y accion.</p>
+                </div>
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="https://franco98.000webhostapp.com/Istic/anuncio5.jpg" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="entrada.html">
+                        <h4>Gear of ward 2</h4>
+                    </a>
+                    <p>Escrito el: 20/10/2019 por: Admin.</p>
+                    <p>Juego de Entretenimiento y accion.</p>
+                </div>
+            </article>
+        </section>
+
+    </div>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <p class="copyright">Todos los derechos reservados OrbisPlay2022 &copy;</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orbisgame", "Orbisgame\Orbisgame.csproj", "{C3686F1F-6737-44CB-B1C7-0DE8B930B283}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrbisGame.Services", "Orbis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrbisGame.Entidades", "OrbisGame.Entidades\OrbisGame.Entidades.csproj", "{E6650948-40FB-45F2-A7FF-55FCB3FEDDE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbisGame.DataAccess", "OrbisGame.DataAccess\OrbisGame.DataAccess.csproj", "{93981FED-7729-4263-BC17-9E4174014737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrbisGame.DataAccess", "OrbisGame.DataAccess\OrbisGame.DataAccess.csproj", "{93981FED-7729-4263-BC17-9E4174014737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbisApi", "OrbisApi\OrbisApi.csproj", "{E54A11C0-7962-43BD-8EC4-9D3B8498ECA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{93981FED-7729-4263-BC17-9E4174014737}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93981FED-7729-4263-BC17-9E4174014737}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93981FED-7729-4263-BC17-9E4174014737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54A11C0-7962-43BD-8EC4-9D3B8498ECA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54A11C0-7962-43BD-8EC4-9D3B8498ECA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54A11C0-7962-43BD-8EC4-9D3B8498ECA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54A11C0-7962-43BD-8EC4-9D3B8498ECA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

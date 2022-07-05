@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisApi\\OrbisApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisApi\\OrbisApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisApi\\OrbisApi.csproj",
+        "projectName": "OrbisApi",
+        "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisApi\\OrbisApi.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj": {
+                "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj"
+              },
+              "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Services\\OrbisGame.Services.csproj": {
+                "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Services\\OrbisGame.Services.csproj"
+              },
+              "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\Orbisgame.csproj": {
+                "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\Orbisgame.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj",
+        "projectName": "OrbisGame.DataAccess",
+        "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj",
+        "projectName": "OrbisGame.Entidades",
+        "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Services\\OrbisGame.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Services\\OrbisGame.Services.csproj",
+        "projectName": "OrbisGame.Services",
+        "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Services\\OrbisGame.Services.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.DataAccess\\OrbisGame.DataAccess.csproj"
+              },
+              "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj": {
+                "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\Orbisgame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\Orbisgame.csproj",
+        "projectName": "Orbisgame",
+        "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\Orbisgame.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\Orbisgame\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj": {
+                "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Entidades\\OrbisGame.Entidades.csproj"
+              },
+              "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Services\\OrbisGame.Services.csproj": {
+                "projectPath": "C:\\Users\\franc\\source\\repos\\OrbisGame\\OrbisGame.Services\\OrbisGame.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

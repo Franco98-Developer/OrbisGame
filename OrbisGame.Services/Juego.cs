@@ -13,7 +13,7 @@ namespace OrbisGame.Services
     {
         DataAccess.ADONETAccess dataAccess = new DataAccess.ADONETAccess();
 
-        string cadena = "Data Source=LAPTOP-8IOVNCF4; database=CaiserBot; Integrated Security=true";
+        string cadena = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\ORBIS\CaiserBot.mdf;Integrated Security=True;Connect Timeout=30";
 
         public bool RegistroJuego(Juegos newJuego)
         {

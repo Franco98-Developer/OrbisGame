@@ -357,3 +357,5 @@ C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net6.0\refint\Orbisgam
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net6.0\Orbisgame.pdb
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net6.0\Orbisgame.genruntimeconfig.cache
 C:\Users\franc\source\repos\Orbisgame\Orbisgame\obj\Debug\net6.0\ref\Orbisgame.dll
+C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net6.0\MimeKit.dll
+C:\Users\franc\source\repos\Orbisgame\Orbisgame\bin\Debug\net6.0\BouncyCastle.Crypto.dll

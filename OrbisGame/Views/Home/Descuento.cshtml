@@ -35,7 +35,7 @@
 
     #summer {
         font-weight: normal;
-        font-size: 50px;
+        font-size: 40px;
         padding-top: 50px;
         margin-bottom: 0;
         transform: scale(1, 1.3);
@@ -202,7 +202,7 @@
                 <li><a href="../Home/MainUser"> <i class="fas fa-home"></i>Home</a></li> <!--fas se relaciona con el fas de la clase site.cc linea 108. alli le aplico eldiseño a todo lo que tenga fas-->
                 <li><a href="../Home/Descargas"> <i class="fas fa-gamepad"></i>Descargas</a></li> <!-- Lista de juegos descargados-->
                 <li><a href="../Home/Catalogo"> <i class="fas fa-gamepad"></i>Catalogo de juegos</a></li> <!--Catalogo de juegos para descargar-->
-                <li><a href="../Home/Descuento"> <i class="fas fa-times"></i>Cupon de Descuento</a></li>
+                <li><a href="../Home/Descuento"> <i class="fas fa-times"></i>Novedades</a></li>
                 <li><a href="#" onclick="not()"> <i class="fas fa-times"></i>Cerrar Sesion</a></li> <!--Cerrar sesion-->
                 <script>
                     function not() {
@@ -248,10 +248,10 @@
                                                     <div class="card rounded-0 border-0 card1">
                                                         <div class="row justify-content-center">
                                                             <div class="col-md-12 col-12">
-                                                                <h2 id="summer">Summer</h2>
+                                                                <h2 id="summer">Novedades</h2>
                                                             </div>
                                                             <div class="col-md-12 col-12">
-                                                                <h2 id="sale">Sale</h2>
+                                                                <h2 id="sale">OrbisPlay</h2>
                                                             </div>
                                                         </div>
                                                         <div class="row justify-content-center">
@@ -283,7 +283,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 bg-white">
-                                                    <form class="">
+                                                    
                                                         <div class="card rounded-0 border-0 card2">
                                                             <div class="row justify-content-center">
                                                                 <div class="col-11">
@@ -292,17 +292,19 @@
                                                             </div>
                                                             <div class="row justify-content-center">
                                                                 <div class="col-11">
-                                                                    <h3 class="subhead2 text-center">A Donde enviamos su 30% off?</h3>
+                                                                    <h3 class="subhead2 text-center">¿Donde podemos enviar las novedades?</h3>
                                                                 </div>
                                                             </div>
                                                             <div class="row justify-content-center">
                                                                 <div class="col-md-10 col-11">
-                                                                    <div class="form-group row">
-                                                                        <div class="col-md-12"> <input id="email" type="email" placeholder="Ingrese su Email " class="form-control input-box rm-border"> </div>
-                                                                    </div>
-                                                                    <div class="form-group row">
-                                                                        <div class="col-md-12"> <input type="submit" value="CONSEGUIR MIS $30 OFF" class="btn btn-red rm-border btn-block"> </div>
-                                                                    </div>
+                                                                    <form  asp-controller="Home" asp-action="Descuento"  method="post">
+                                                                        <div class="form-group row">
+                                                                            <div class="col-md-12"> 
+                                                                            <input id="Mail" type="text" name="Mail" placeholder="Ingrese su Email " class="form-control input-box rm-border" required> </div>
+                                                                            <input type="submit" value="Enviar" class="btn btn-red rm-border btn-block"> 
+                                                                        </div>
+                                                                        
+                                                                    </form>
                                                                     <div class="form-group row justify-content-center mb-0">
                                                                         <div class="col-md-12 px-3 mt-4">
                                                                             <a href="#">
@@ -312,13 +314,12 @@
                                                                     </div>
                                                                     <div class="form-group row justify-content-center mb-0">
                                                                         <div class="col-md-10 px-3">
-                                                                            <p class="conditions">Solo para personas que se registren por primera vez. * $ 10 de descuento en pedidos de $ 25 +, e ingresar su correo electrónico también lo hace elegible para recibir futuros correos electrónicos promocionales.</p>
+                                                                            <p class="conditions">Por favor escriba un mail valido, ya que si nos escribe un mail erroneo no llegara a su destino las notificaciones.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </form>
                                                 </div>
                                             </div>
                                         </div>

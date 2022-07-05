@@ -8,89 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Orbisgame
 build_property.RootNamespace = Orbisgame
-build_property.ProjectDir = C:\Users\franc\source\repos\Orbisgame\Orbisgame\
+build_property.ProjectDir = C:\Users\franc\source\repos\OrbisGame\Orbisgame\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\franc\source\repos\Orbisgame\Orbisgame
+build_property.MSBuildProjectDirectory = C:\Users\franc\source\repos\OrbisGame\Orbisgame
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/AdminLogin.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/AdminLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkxvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/AltaJuego.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/AltaJuego.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbHRhSnVlZ28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Catalogo.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Catalogo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRhbG9nby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Descargas.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Descargas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXNjYXJnYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Descuento.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Descuento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXNjdWVudG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Index.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Inicio.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Juegos.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Juegos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKdWVnb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Login.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/MainAdmin.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/MainAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWluQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/MainUser.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/MainUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWluVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Productos.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/Tarjeta.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/Tarjeta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYXJqZXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Home/UsuariosActivos.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Home/UsuariosActivos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc3Vhcmlvc0FjdGl2b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Security/PasswordRecovery.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Security/PasswordRecovery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcUGFzc3dvcmRSZWNvdmVyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Shared/Error.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Shared/_Layout.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/_ViewImports.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franc/source/repos/Orbisgame/Orbisgame/Views/_ViewStart.cshtml]
+[C:/Users/franc/source/repos/OrbisGame/Orbisgame/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

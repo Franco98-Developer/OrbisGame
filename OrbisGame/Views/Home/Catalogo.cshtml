@@ -20,6 +20,11 @@
             padding: 10px;
         }
 
+        .btn btn-success{
+            height:100%;
+            
+        }
+
         .search {
             outline: none;
             box-sizing: border-box;
@@ -51,12 +56,18 @@
             transition: .5s;
         }
 
-            .btn-search i {
-                font-size: 25px;
-                color: white;
-                line-height: 80px;
-                transition: all .7s ease;
-            }
+        .btn-search i {
+            font-size: 25px;
+            color: white;
+            line-height: 80px;
+            transition: all .7s ease;
+        }
+
+        #nombre{
+            width:80%;
+            height:100%;
+            
+        }
 
         .container_buscar:hover input {
             width: 900px;
@@ -83,7 +94,7 @@
                 <li><a href="../Home/MainUser"> <i class="fas fa-home"></i>Home</a></li> <!--fas se relaciona con el fas de la clase site.cc linea 108. alli le aplico eldiseño a todo lo que tenga fas-->
                 <li><a href="../Home/Descargas"> <i class="fas fa-cloud-download-alt"></i>Descargas</a></li> <!-- Lista de juegos descargados-->
                 <li><a href="../Home/Catalogo"><i class="fas fa-bomb"></i>Catalogo de juegos</a></li> <!--Catalogo de juegos para descargar-->
-                <li><a href="../Home/Descuento"> <i class="fas fa-tags"></i>Cupon de Descuento</a></li>
+                <li><a href="../Home/Descuento"> <i class="fas fa-tags"></i>Novedades</a></li>
                 <li><a href="#" onclick="aviso()"> <i class="fas fa-times"></i>Cerrar Sesion</a></li> <!--Cerrar sesion-->
                 <script>
                     function aviso() {
@@ -122,20 +133,22 @@
                     <div class="container">
                         <div class="container">
                             <div class="container">
-                                @*<div class="container_buscar">
-                                    <input class="search" type="text" placeholder="Buscar">
-                                    <div class="btn-search">
-                                        <i onclick="actualizar" class="fa fa-search"></i>
+                                @*<form class="contact-form row" asp-controller="Home" asp-action="Catalogo" method="get">
+                                     <div class="container_buscar">
+                                        <input class="search" name="nombre" type="text" placeholder="Buscar">
+                                        <div class="btn-search">
+                                            <i type="submit" class="fa fa-search"></i>
+                                        </div>                                    
                                     </div>
-                                     
-                                </div>*@
+                                </form>*@
+                              
                                 <form class="contact-form row" asp-controller="Home" asp-action="Catalogo" method="get">
-                                    <div class="form-field col-lg-3 ">
-                                        <input id="nombre" name="nombre" class="input-text js-input" type="text">                 
+                                    <div class="form-field col-lg-12 ">
+                                        <input id="nombre" name="nombre" class="input-text js-input" type="text">   
+                                        <input  class="btn btn-success" type="submit" value="Buscar">
+                                        <br>
                                     </div>
-                                    <div class="form-field col-lg-12">
-                                        <input class="submit-btn" type="submit" value="Buscar">
-                                    </div>
+                                    
                                 </form>
                                
                                 
@@ -165,7 +178,7 @@
                                                                 <th scope="col" value=@game.Id_Juego>@game.Compatibilidad </th>
                                                                 <th scope="col" value=@game.Id_Juego>$ @game.Precio </th>
                                                                 <th scope="col"><input  type="submit" class="btn btn-success" asp-route-idJuego="@game.Id_Juego" value="Descargar"><i class="bi bi-download"></i></th>
-                                                                
+                                                                                        
                                                             </tr>
                                                         }
                                                         
@@ -176,12 +189,7 @@
 
                                             </thead>
                                         </form>
-                                    </table>
-                                    <script>
-                                        $(document).ready(function actualizar() {
-                                            $('#tabla_juegos').DataTable();
-                                        });
-                                    </script>
+                                    </table>                                   
                                 </div>
                             </div>
                         </div>
@@ -190,10 +198,5 @@
             </div>
         </div>
     </div>
-
-
-
 </body>
-
-
 </html>

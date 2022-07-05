@@ -275,6 +275,36 @@ namespace Orbisgame.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Descuento(UsuariosViewModel usuariosViewModel)
+        {
+            try
+            {
+                //Instancia la clase para envio de Correo
+                Email Correo = new Email();
+
+                var user = new Usuarios()
+                {
+
+                    Mail = usuariosViewModel.Mail,
+                };
+
+                var usuario = new Usuario();
+                //Obtener el usuario para enviar correctamente el mensaje
+                var nombredeUsuario = usuario.ObtenerUsuarioporMail(user.Mail);
+                //Envia PIN ALEATORIO al correo ingresado
+                Correo.enviarCorreoNovedades(nombredeUsuario.ToString(),user.Mail);
+
+
+                return View("MainUser");
+
+            }
+            catch(Exception ex)
+            {
+                return View("Descuento");
+            }
+        }
+
         public IActionResult UsuariosActivos()
         {
             var UserActive = users.GetAllUsers();
